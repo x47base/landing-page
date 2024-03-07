@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --mainColor: #fdfdfd;
+    --darkColor: #0c1618;
+    --lightDarkColor: #132326;
+    --fontColor: #7a7a7a;
+    --darkWhite: #e8eced;
+    --linkBlue: #057afc;
+    --red: #ff0000;
+    --blurple: #454fbf;
+    --darkGrey: #333;
+    --green: rgb(22, 174, 22);
+    --nav-text-color: #242424;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0 auto;
+    background-color: var(--mainColor);
+    color: var(--fontColor);
+    font-family: "Poppins", sans-serif;
+}
+
+/*	LANDING PAGE DESIGN	*/
+
+
+
+/*	RESPONSIVE DESIGN 	*/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 660px) {
+
+}
+
+@media screen and (max-width: 550px) {
+
+}
+
+
