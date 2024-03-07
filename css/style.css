@@ -25,8 +25,72 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/*  HEADER DESIGN*/
+
+header nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav .brand {
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--darkColor);
+}
+
+nav .nav__link {
+    color: var(--nav-text-color);
+    padding: 0.125rem;
+    text-decoration: none;
+}
+
 /*	LANDING PAGE DESIGN	*/
 
+main {
+    padding: 0 auto;
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    height: 38rem;
+
+    gap: .25rem;
+
+    background-color: var(--darkWhite);
+}
+
+#landing .title {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+#landing .description {
+    font-weight: 400;
+    font-size: 1.075rem;
+}
+
+#landing .landing-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.075rem;
+
+    padding: .6rem;
+    border-radius: 1.25rem;
+    transition: all 250ms;
+}
+
+#landing .landing-link:hover {
+    background-color: var(--darkWhite);
+}
 
 
 /*	RESPONSIVE DESIGN 	*/
