@@ -79,6 +79,9 @@ main {
 }
 
 #landing .landing-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.075rem;
@@ -89,7 +92,23 @@ main {
 }
 
 #landing .landing-link:hover {
-    background-color: var(--darkWhite);
+    background-color: #d2d7e7;
+}
+
+/*  FOOTER DESIGN */
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 100px;
+    background-color: var(--darkColor);
+}
+
+footer p {
+    text-align: center;
+    color: #afb3b4;
 }
 
 
@@ -104,11 +123,21 @@ main {
 }
 
 @media screen and (max-width: 900px) {
-
+    #landing {
+        padding: 0;
+        hyphens: auto;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    #landing {
+        padding: 1.65rem;
+    }
 
+    #landing .title,
+    .description {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -116,11 +145,15 @@ main {
 }
 
 @media screen and (max-width: 660px) {
-
+    #landing {
+        padding: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 550px) {
-
+    #landing {
+        padding: 1.25rem;
+    }
 }
 
 
